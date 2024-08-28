@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find your dream job with CareerWave. Explore various job categories, get career guidance, and stay updated with the latest job opportunities.">
+    <title>Job Portal Home</title>
+    <link rel="stylesheet" href="cssFiles/HomePageStyles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/image.png" width="85" height="85" alt="CareerWave Logo">
+            <div class="logo">CareerWave</div>
+            <nav>
+              <ul>
+                    <li><a href="#" onclick="refreshPage()">Home</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="#footer-section">Contact Us</a></li>
+                    <li><a href="LoginHomePage.html">Login</a></li>
+                    <li><a href="RegisterHome.html">Register/Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <form>
+    <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Search..." onfocus="showDropdown('dropdown')">
+        <div id="dropdown" class="dropdown-content">
+          <div class="dropdown-item">
+            <a href="#" onclick="setSearchValue('IT', 'search-bar')">IT</a>
+            <div class="sub-dropdown-content">
+              <a href="#" onclick="setSearchValue('Software Developer', 'search-bar')">Software Developer</a>
+              <a href="#" onclick="setSearchValue('System Analyst', 'search-bar')">System Analyst</a>
+              <a href="#" onclick="setSearchValue('Network Engineer', 'search-bar')">Network Engineer</a>
+              <a href="#" onclick="setSearchValue('Database Administrator', 'search-bar')">Database Administrator</a>
+              <a href="#" onclick="setSearchValue('DevOps Engineer', 'search-bar')">DevOps Engineer</a>
+              <a href="#" onclick="setSearchValue('Cybersecurity Specialist', 'search-bar')">Cybersecurity Specialist</a>
+              <a href="#" onclick="setSearchValue('Quality Assurance Engineer', 'search-bar')">Quality Assurance Engineer</a>
+              <a href="#" onclick="setSearchValue('Security Engineer', 'search-bar')">Security Engineer</a>
+              <a href="#" onclick="setSearchValue('Web Developer', 'search-bar')">Web Developer</a>
+              <a href="#" onclick="setSearchValue('PHP Developer', 'search-bar')">PHP Developer</a>
+              <a href="#" onclick="setSearchValue('Software Test Engineer', 'search-bar')">Software Test Engineer</a>
+              <a href="#" onclick="setSearchValue('Front-End Developer', 'search-bar')">Front-End Developer</a>
+              <a href="#" onclick="setSearchValue('Full-Stack Developer', 'search-bar')">Full-Stack Developer</a>
+              <a href="#" onclick="setSearchValue('Python Developer', 'search-bar')">Python Developer</a>
+              <a href="#" onclick="setSearchValue('Software Architect', 'search-bar')">Software Architect</a>
+              <a href="#" onclick="setSearchValue('Back-End Developer', 'search-bar')">Back-End Developer</a>
+            </div>
+          </div>
+    
+          <div class="dropdown-item">
+            <a href="#" onclick="setSearchValue('NON-IT', 'search-bar')">NON-IT</a>
+            <div class="sub-dropdown-content">
+              <a href="#" onclick="setSearchValue('HR Manager', 'search-bar')">HR Manager</a>
+              <a href="#" onclick="setSearchValue('Marketing Specialist', 'search-bar')">Marketing Specialist</a>
+              <a href="#" onclick="setSearchValue('Finance Analyst', 'search-bar')">Finance Analyst</a>
+              <a href="#" onclick="setSearchValue('Sales Representative', 'search-bar')">Sales Representative</a>
+              <a href="#" onclick="setSearchValue('Customer Service Representative', 'search-bar')">Customer Service Representative</a>
+              <a href="#" onclick="setSearchValue('Administrative Assistant', 'search-bar')">Administrative Assistant</a>
+              <a href="#" onclick="setSearchValue('Business Analyst', 'search-bar')">Business Analyst</a>
+              <a href="#" onclick="setSearchValue('Market Research Analyst', 'search-bar')">Market Research Analyst</a>
+              <a href="#" onclick="setSearchValue('Digital Marketing Strategist', 'search-bar')">Digital Marketing Strategist</a>
+              <a href="#" onclick="setSearchValue('Social Media Manager', 'search-bar')">Social Media Manager</a>
+              <a href="#" onclick="setSearchValue('Business Development Manager', 'search-bar')">Business Development Manager</a>
+              <a href="#" onclick="setSearchValue('Management Consultant', 'search-bar')">Management Consultant</a>
+              <a href="#" onclick="setSearchValue('Advertising and Media Professional', 'search-bar')">Advertising and Media Professional</a>
+              <a href="#" onclick="setSearchValue('Graphic Designer', 'search-bar')">Graphic Designer</a>
+              <a href="#" onclick="setSearchValue('Content Manager', 'search-bar')">Content Manager</a>
+              <a href="#" onclick="setSearchValue('Quality Assurance Manager', 'search-bar')">Quality Assurance Manager</a>
+              <a href="#" onclick="setSearchValue('Customer Relationship Manager', 'search-bar')">Customer Relationship Manager</a>
+              <a href="#" onclick="setSearchValue('Project Manager', 'search-bar')">Project Manager</a>
+              <a href="#" onclick="setSearchValue('Product Manager', 'search-bar')">Product Manager</a>
+            </div>
+          </div>
+    
+          <div class="dropdown-item">
+            <a href="#" onclick="setSearchValue('FRESHER', 'search-bar')">FRESHER</a>
+            <div class="sub-dropdown-content">
+              <a href="#" onclick="setSearchValue('Junior Developer', 'search-bar')">Junior Developer</a>
+              <a href="#" onclick="setSearchValue('Intern', 'search-bar')">Intern</a>
+              <a href="#" onclick="setSearchValue('Trainee', 'search-bar')">Trainee</a>
+              <a href="#" onclick="setSearchValue('Junior QA Engineer', 'search-bar')">Junior QA Engineer</a>
+              <a href="#" onclick="setSearchValue('Junior Data Analyst', 'search-bar')">Junior Data Analyst</a>
+              <a href="#" onclick="setSearchValue('Junior IT Support', 'search-bar')">Junior IT Support</a>
+              <a href="#" onclick="setSearchValue('Java Developer', 'search-bar')">Java Developer</a>
+              <a href="#" onclick="setSearchValue('Technical Support Specialist', 'search-bar')">Technical Support Specialist</a>
+              <a href="#" onclick="setSearchValue('Dot Net Developer', 'search-bar')">Dot Net Developer</a>
+              <a href="#" onclick="setSearchValue('Service Desk Associate L1', 'search-bar')">Service Desk Associate L1</a>
+              <a href="#" onclick="setSearchValue('Customer Care Executive', 'search-bar')">Customer Care Executive</a>
+              <a href="#" onclick="setSearchValue('Process Associate', 'search-bar')">Process Associate</a>
+              <a href="#" onclick="setSearchValue('Customer Support Representative', 'search-bar')">Customer Support Representative</a>
+              <a href="#" onclick="setSearchValue('Research Analyst', 'search-bar')">Research Analyst</a>
+              <a href="#" onclick="setSearchValue('International Process Associate BPO', 'search-bar')">International Process Associate BPO</a>
+              <a href="#" onclick="setSearchValue('Product Specialist', 'search-bar')">Product Specialist</a>
+              <a href="#" onclick="setSearchValue('Functional Associate', 'search-bar')">Functional Associate</a>
+              <a href="#" onclick="setSearchValue('HR Intern', 'search-bar')">HR Intern</a>
+              <a href="#" onclick="setSearchValue('IT Sales Executive', 'search-bar')">IT Sales Executive</a>
+            </div>
+          </div>
+    
+          <div class="dropdown-item">
+            <a href="#" onclick="setSearchValue('EXPERIENCED', 'search-bar')">EXPERIENCED</a>
+            <div class="sub-dropdown-content">
+              <a href="#" onclick="setSearchValue('Project Manager', 'search-bar')">Project Manager</a>
+          <a href="#" onclick="setSearchValue('Senior Developer', 'search-bar')">Senior Developer</a>
+              <a href="#" onclick="setSearchValue('Team Lead', 'search-bar')">Team Lead</a>
+              <a href="#" onclick="setSearchValue('Senior QA Engineer', 'search-bar')">Senior QA Engineer</a>
+              <a href="#" onclick="setSearchValue('Senior Data Analyst', 'search-bar')">Senior Data Analyst</a>
+              <a href="#" onclick="setSearchValue('IT Director', 'search-bar')">IT Director</a>
+              <a href="#" onclick="setSearchValue('Product Manager', 'search-bar')">Product Manager</a>
+              <a href="#" onclick="setSearchValue('Solution Architect', 'search-bar')">Solution Architect</a>
+              <a href="#" onclick="setSearchValue('Technical Lead', 'search-bar')">Technical Lead</a>
+              <a href="#" onclick="setSearchValue('Engineering Manager', 'search-bar')">Engineering Manager</a>
+              <a href="#" onclick="setSearchValue('Cloud Engineer', 'search-bar')">Cloud Engineer</a>
+              <a href="#" onclick="setSearchValue('Data Scientist', 'search-bar')">Data Scientist</a>
+              <a href="#" onclick="setSearchValue('Security Consultant', 'search-bar')">Security Consultant</a>
+              <a href="#" onclick="setSearchValue('Scrum Master', 'search-bar')">Scrum Master</a>
+              <a href="#" onclick="setSearchValue('Business Analyst', 'search-bar')">Business Analyst</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+     <div class="search-container">
+        <input type="text" id="location-bar" placeholder="Location..." onfocus="showDropdown('location-dropdown')">
+        <div id="location-dropdown" class="dropdown-content">
+        <a href="#" onclick="setSearchValue('Hyderabad')">Hyderabad</a>
+            <a href="#" onclick="setSearchValue('Bangalore')">Bangalore</a>
+            <a href="#" onclick="setSearchValue('Mumbai')">Mumbai</a>
+            <a href="#" onclick="setSearchValue('Pune')">Pune</a>
+            <a href="#" onclick="setSearchValue('Delhi')">Delhi</a>
+        <a href="#" onclick="setSearchValue('Kolkata')">Kolkata</a>
+        <a href="#" onclick="setSearchValue('Chennai')">Chennai</a>
+        <a href="#" onclick="setSearchValue('Ahmedabad')">Ahmedabad</a>
+        <a href="#" onclick="setSearchValue('Jaipur')">Jaipur</a>
+        <a href="#" onclick="setSearchValue('Noida')">Noida</a>
+        <a href="#" onclick="setSearchValue('Coimbatore')">Coimbatore</a>
+        <a href="#" onclick="setSearchValue('Kochi')">Kochi</a>
+        <a href="#" onclick="setSearchValue('Gujarat')">Gujarat </a>
+        <a href="#" onclick="setSearchValue('Jaipur')">Jaipur</a>
+        <a href="#" onclick="setSearchValue('Indore')">Indore</a>
+  
+       
+    </div>
+        </div>
+        <div>
+    </div>
+    <button class="search-button" type="submit">Search</button>
+</form>
+    </section>
+    
+   
+    
+    <!-- <section class="hero">
+        <div class="hero-content">
+            <h1>Find Your Dream Job</h1>
+            <form class="search-bar" method="get" action="/search">
+                <input type="text" placeholder="Job Title, Keywords">
+                <input type="text" placeholder="Location">
+                <button type="submit">Search Jobs</button>
+            </form>
+        </div>
+    </section> -->
+
+
+
+    <section class="features">
+        <h2>Why Choose Us?</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <i class="icon easy-to-use"></i>
+                <h3>Easy to Use</h3>
+                <p>User-friendly interface.</p>
+            </div>
+            <div class="feature">
+                <i class="icon verified-jobs"></i>
+                <h3>Verified Jobs</h3>
+                <p>Quality and authentic job listings.</p>
+            </div>
+            <div class="feature">
+                <i class="icon career-guidance"></i>
+                <h3>Career Guidance</h3>
+                <p>Support and resources for career growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="job-categories">
+        <h2>Explore Job Categories</h2>
+        <div class="categories-grid">
+            <div class="category">Technology</div>
+            <div class="category">Finance</div>
+            <div class="category">Healthcare</div>
+            <div class="category">Education</div>
+            <div class="category">Marketing</div>
+            <div class="category">More Categories...</div>
+        </div>
+    </section>
+
+    <!-- Uncomment this section if you want to include featured jobs -->
+    <!--
+    <section class="featured-jobs">
+        <h2>Featured Jobs</h2>
+        <div class="jobs-grid">
+            <div class="job">
+                <h3>Software Engineer</h3>
+                <p>Company ABC</p>
+                <p>Location: New York</p>
+            </div>
+            <div class="job">
+                <h3>Marketing Manager</h3>
+                <p>Company XYZ</p>
+                <p>Location: San Francisco</p>
+            </div>
+         More job listings 
+        </div>
+    </section>
+    -->
+
+    <section class="newsletter">
+        <h2>Stay Updated</h2>
+        <form class="subscribe-form" method="post" action="/subscribe">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer id="footer-section">
+        <!-- <div class="footer-content">
+            <div class="about-us">
+                <h3>About Us</h3>
+                <p>JobPortal is your gateway to career success. Connect with top employers and discover your next opportunity.</p>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:support@jobportal.com">support@jobportal.com</a></p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                  
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div> 
+
+
+        <form action="/submit_contact_form" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form> -->
+
+
+        <p>&copy; 2024 CareerWave. All rights reserved.</p>
+        <p>Contact us: careerwave@example.com | Phone: +91-1234567890</p>
+    </footer>
+    
+    <script src="javascriptFiles/HomePageScript.js"></script>
+</body>
+</html>
